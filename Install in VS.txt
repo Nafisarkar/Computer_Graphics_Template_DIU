@@ -29,8 +29,7 @@ Steps:
 
     Include Headers in Your Code:
 
-    cpp
-
+cpp
 #include <Windows.h>
 #include <GL/glew.h>
 #include <GL/freeglut.h>

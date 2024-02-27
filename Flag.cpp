@@ -38,9 +38,9 @@ void display() {
 
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
-    glutCreateWindow("Simple Line Strip");
-    glutInitWindowSize(320, 320);
-    glutInitWindowPosition(50, 50);
+    glutCreateWindow("FLAG");
+    glutInitWindowSize(500, 500);
+    glutInitWindowPosition(500, 500);
     glutDisplayFunc(display);
     glutMainLoop();
 

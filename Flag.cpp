@@ -2,7 +2,7 @@
 #include <GL/glut.h>
 #include <math.h>
 
-
+//radius, x, y, degree
 void DrawCircle(int radious, int x, int y, int degree) {
     float theta;
     glBegin(GL_POLYGON);

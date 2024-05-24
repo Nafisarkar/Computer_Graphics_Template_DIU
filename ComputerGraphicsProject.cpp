@@ -1,8 +1,8 @@
-#include <GL/glut.h>
-#include <gl/gl.h>
-#include <math.h>
+#include "glut.h"
 #include <stdio.h>
+#include <math.h>
 #include <time.h>
+#include <GL/gl.h>
 
 float tx = 0, ty = 0;
 
@@ -171,10 +171,6 @@ void init(void) {
   const GLubyte *renderer = glGetString(GL_RENDERER);
   const GLubyte *version = glGetString(GL_VERSION);
   const GLubyte *extensions = glGetString(GL_EXTENSIONS);
-
-  printf("Renderer: %s\n", renderer);
-  printf("OpenGL Version: %s\n", version);
-  printf("Extensions: %s\n", extensions);
 }
 
 void Draw() {

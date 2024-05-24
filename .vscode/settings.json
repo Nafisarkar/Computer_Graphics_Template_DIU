@@ -8,8 +8,8 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "files.exclude": {
-    "mingw*": true,
-    "Program.exe": true
+      "mingw*": true,
+      "Program.exe": true
   },
   "run.inputFile": "${workspaceFolder}\\Input.txt",
   "run.outputFile": "${workspaceFolder}\\Output.txt"

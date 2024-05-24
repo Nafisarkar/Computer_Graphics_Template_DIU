@@ -1,15 +1,13 @@
-#include "glut.h"
-#include <stdio.h>
+#include <GL/glut.h>
+#include <GL/gl.h>
 #include <math.h>
 #include <time.h>
-#include <GL/gl.h>
+
 
 float tx = 0, ty = 0;
-
 float trianglePosX = 0.0f;  // Initial X position for the triangle
 float rectanglePosX = 0.0f; // Initial X position for the rectangles
 float speed = 1.1f;         // Speed of movement
-
 float posX = -700.0f; // Initial X position for all shapes
 float fspeed1 = 0.1f;
 float fspeed2 = 0.1f;
@@ -563,7 +561,6 @@ void update(int value) {
   if (rectanglePosX > 500)
     rectanglePosX = -500;
 
-  
   fspeed1 += 0.5f;
   fspeed2 += 0.3f;
   fspeed3 += 0.1f;
@@ -577,7 +574,7 @@ void update(int value) {
   if (fspeed3 > 60) {
     fspeed3 = -60;
   }
-  
+
   cloudSpeed1 += 0.1f;
   cloudSpeed2 += 0.3f;
   cloudSpeed3 -= 0.1f;
